@@ -6,8 +6,7 @@ import {
     Heading,
     Row,
     Section,
-    Text,
-    Title
+    Text
 } from '@react-email/components'
 
 interface VerificationEmailProps {
@@ -19,7 +18,7 @@ export default function VerificationEmail({ username, otp}: VerificationEmailPro
     return (
         <Html lang='en' dir='ltr'>
             <Head>
-                <Title>Verification Code</Title>
+                <title>Verification Code</title>
                 <Font
                     fontFamily="Roboto"
                     fallbackFontFamily="Verdana"
